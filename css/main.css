@@ -1,0 +1,212 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-size: cover;
+    background-position:center center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white!important;
+}
+.layer{
+    width: 100%;
+    height: 660px;
+    background-color: rgba(128, 28, 31,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white!important;
+}
+.layer h1{
+    font-size: 60px;
+}
+.contan{
+    width: 18%;
+    height: 100%;
+    background-color: #414658;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.item{
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: white;
+    cursor: pointer;
+}
+.list{
+    list-style-type:none;
+}
+.list li{
+     
+    width: 100px;
+    height: 100px;
+}
+.list li:hover .item{
+    color: crimson;
+}
+.close{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color:white!important;
+    transition: all 1s;
+
+}
+.item:hover,.close:hover {
+    color: rgb(154, 14, 14) !important;
+
+}
+.open{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 35%;
+    left:19%;
+    z-index: 999;
+
+}
+.bargerico{
+width: 50px;
+height: 50px;
+position:relative ;
+cursor: pointer;
+z-index: 9999;
+}
+.line{
+    color: #fff!important;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.bargerico span{
+    width: 80%;
+    height: 6px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transition: all .3s;
+}
+.bargerico span:first-child{
+    top:0;
+}
+.bargerico span:nth-child(2){
+    top:30%;
+}
+.bargerico span:last-child{
+    top:60%;
+}
+.sing{
+    width: 50%;
+    margin:100px auto;
+}
+.one{
+    text-align: center;
+   
+}
+.title1,.title2,.title3,.title4{
+background-color: #E68285;
+color: #fff;
+font-size: 24px;
+padding: 10px;
+margin: 0;
+cursor: pointer;
+}
+.text1,.text2,.text3,.text4{
+background-color:  rgb(204, 204, 204);
+padding: 10px;
+margin: 0;
+display: none;
+}
+.timer{
+    width: 100%;
+    height: 330px;
+    background-image: url('../images/invitation-2508607__340.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.lay{
+    height: 100%;
+    background-color:rgba(128, 28, 31,.6) ;
+}
+.time{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.time span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    color: #fff;
+}
+.icon{
+    margin: 40px 0px;
+}
+.icon div{
+    margin: 30px;
+}
+.email{
+    color: #db423e;
+}
+.social i{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #777;
+    cursor: pointer;
+    transition: all .3s;
+}
+.social i:hover{
+    color: #fff;
+    background-color: #db423e;
+}
+.info{
+    margin: 40px 0px;
+
+}
+.inputs div{
+    margin-top: 30px;
+}
+.inputs div p {
+    text-align: left;
+    margin-top: 10px;
+    color: #db423e;
+}
+.inputs div span{
+    color: #000;
+}
+.btn{
+    background-color: #db423e;
+    color: #fff!important;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.contact{
+    margin: 100px 0px;
+}
+.contact h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
